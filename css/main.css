@@ -1,0 +1,117 @@
+
+/**********************************/
+/********** Main News CSS *********/
+/**********************************/
+.main-news {
+	position: relative;
+	width: 100%;
+	margin-bottom: 2rem;
+}
+
+.main-news .col-md-4 {
+	margin-bottom: 2rem;
+}
+
+.main-news .mn-img {
+	position: relative;
+	overflow: hidden;
+    border-radius: 10px;
+}
+
+.main-news .mn-img img {
+	width: 100%;
+}
+
+.main-news .mn-img:hover img {
+	filter: blur(3px);
+	-webkit-filter: blur(3px);
+}
+
+.main-news .mn-title {
+	position: absolute;
+	top: 0; 
+	right: 0;
+	bottom: 0; 
+	left: 0;
+	padding: 1rem 0.8rem 1rem 1.3rem;
+	background-image: linear-gradient(rgba(0, 0, 0, .0), rgba(0, 0, 0, .3), rgba(0, 0, 0, .9));
+	display: flex;
+	align-items: flex-end;
+}
+
+.main-news .mn-title a {
+	display: block;
+	width: 100%;
+	color: var(--branco);
+	font-size: 1rem;
+	font-weight: 400;
+	transition: .3s;
+}
+
+.main-news .mn-title a:hover {
+	color: var(--azul-escuro);
+}
+
+.main-news .mn-list {
+	margin-bottom: 2rem;
+}
+
+.main-news .mn-list h2 {
+	color: var(--preto);
+	margin-bottom: 2rem;
+	padding-bottom: 15px;
+	border-bottom: 3px double var(--preto);
+}
+
+.main-news .mn-list ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.main-news .mn-list ul li {
+	margin: 0 0 1rem 1rem; 
+}
+
+.main-news .mn-list ul li:last-child {
+	margin-bottom: 0; 
+}
+
+.main-news .mn-list ul li a {
+	color: var(--preto);
+	display: block;
+	line-height: 23px;
+}
+
+.main-news .mn-list ul li::before {
+	position: absolute;
+	content: '\f061';
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	color: var(--preto);
+	left: 1px;
+}
+
+.main-news .mn-list ul li a:hover {
+	color: var(--azul-escuro);
+}
+
+p{
+    line-height: 2rem;
+}
+
+/**********************************/
+/********** Em construção *********/
+/**********************************/
+
+.construcao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+.gif{
+    width: 10rem;
+}

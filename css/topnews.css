@@ -1,0 +1,113 @@
+/**********************************/
+/********** Top News CSS **********/
+/**********************************/
+.top-news {
+	display: flex;
+	width: 100%;
+	padding: 30px 0 0 0;
+    border-radius: 10px;
+}
+
+.top-news .tn-img {
+	position: relative;
+	overflow: hidden;
+    border-radius: 10px;
+}
+
+.top-news .tn-img img {
+	width: 100%;
+    border-radius: 10px;
+}
+
+.top-news .tn-img:hover img {
+	filter: blur(3px);
+	-webkit-filter: blur(3px);
+    border-radius: 10px;
+}
+
+.top-news .tn-title {
+	position: absolute;
+	top: 0; 
+	right: 0;
+	bottom: 0; 
+	left: 0;
+	padding: 1rem 10px 1rem 20px;
+	background-image: linear-gradient(rgba(0, 0, 0, .0), rgba(0, 0, 0, .3), rgba(0, 0, 0, .9));
+	display: flex;
+	align-items: flex-end;
+    border-radius: 10px;
+}
+
+.top-news .tn-title a {
+	display: block;
+	width: 100%;
+	color: var(--branco);
+	font-size: 1rem;
+	font-weight: 400;
+	transition: .3s;
+}
+
+.top-news .tn-left .tn-title a {
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+.top-news .tn-title a:hover {
+	color: var(--azul-escuro);
+}
+
+.top-news .tn-left {
+	margin-bottom: 30px;
+}
+
+.top-news .tn-right {
+	margin-bottom: 60px;
+	padding: 0 30px;
+}
+
+.top-news .tn-right .col-md-6 {
+	padding: 0.5rem;
+}
+
+.top-news .slick-prev,
+.top-news .slick-next {
+	width: 28px;
+	height: 28px;
+	z-index: 1;
+	transition: .5s;
+	color: var(--branco);
+	background: var(--preto);
+	border-radius: 4px;
+}
+
+.top-news .slick-prev {
+	left: 30px;
+}
+
+.top-news .slick-next {
+	right: 30px;
+}
+
+.top-news .slick-prev:hover,
+.top-news .slick-prev:focus,
+.top-news .slick-next:hover,
+.top-news .slick-next:focus {
+	color: var(--branco);
+	background: var(--azul-escuro);
+}
+
+.top-news .slick-prev::before,
+.top-news .slick-next::before {
+	font-family: "Font Awesome 5 Free";
+	font-size: 1rem;
+	font-weight: 900;
+	color: var(--branco);
+}
+
+.top-news .slick-prev::before {
+	content: "\f104";
+}
+
+.top-news .slick-next::before {
+	content: "\f105";
+}

@@ -1,0 +1,105 @@
+/**********************************/
+/******* Category News CSS ********/
+/**********************************/
+.cat-news {
+	position: relative;
+	width: 100%;
+	padding: 0;
+    border-radius: 10px;
+}
+
+.cat-news .col-md-6 {
+	margin-bottom: 30px;
+}
+
+.cat-news h2 {
+	color: var(--preto);
+	padding-bottom: 0.5rem;
+	border-bottom: 3px double var(--preto);
+}
+
+.cat-news .cn-img {
+	position: relative;
+	overflow: hidden;
+    border-radius: 10px;
+}
+
+.cat-news .cn-img img {
+	width: 100%;
+    border-radius: 10px;
+}
+
+.cat-news .cn-img:hover img {
+	filter: blur(3px);
+	-webkit-filter: blur(3px);
+}
+
+.cat-news .cn-title {
+	position: absolute;
+	top: 0; 
+	right: 0;
+	bottom: 0; 
+	left: 0;
+	padding: 2rem 0.7rem 2rem 1.3rem;
+	background-image: linear-gradient(rgba(0, 0, 0, .0), rgba(0, 0, 0, .3), rgba(0, 0, 0, .9));
+	display: flex;
+	align-items: flex-end;
+    border-radius: 10px;
+}
+
+.cat-news .cn-title a {
+	display: block;
+	width: 100%;
+	color: var(--branco);
+	font-size: 1rem;
+	font-weight: 400;
+	transition: .3s;
+}
+
+.cat-news .cn-title a:hover {
+	color: var(--azul-escuro);
+}
+
+.cat-news .slick-prev,
+.cat-news .slick-next {
+	top: -62px;
+	width: 28px;
+	height: 28px;
+	z-index: 1;
+	transition: .5s;
+	color: var(--branco);
+	background: var(--preto);
+	border-radius: 4px;
+}
+
+.cat-news .slick-prev {
+	left: calc(100% - 85px);
+}
+
+.cat-news .slick-next {
+	right: 14px;
+}
+
+.cat-news .slick-prev:hover,
+.cat-news .slick-prev:focus,
+.cat-news .slick-next:hover,
+.cat-news .slick-next:focus {
+	color: var(--branco);
+	background: var(--azul-escuro);
+}
+
+.cat-news .slick-prev::before,
+.cat-news .slick-next::before {
+	font-family: "Font Awesome 5 Free";
+	font-size: 1rem;
+	font-weight: 900;
+	color: var(--branco);
+}
+
+.cat-news .slick-prev::before {
+	content: "\f104";
+}
+
+.cat-news .slick-next::before {
+	content: "\f105";
+}

@@ -1,0 +1,58 @@
+/**********************************/
+/********** Tab News CSS **********/
+/**********************************/
+.tab-news {
+	position: relative;
+}
+
+.tab-news .col-md-6 {
+	margin-bottom: 60px;
+}
+
+.tab-news .nav.nav-pills .nav-link {
+	color: var(--branco);
+	background: var(--preto);
+	border-radius: 0;
+}
+
+.tab-news .nav.nav-pills .nav-link:hover,
+.tab-news .nav.nav-pills .nav-link.active {
+	color: var(--branco);
+	background: var(--azul-escuro);
+}
+
+.tab-news .tab-content {
+	padding: 30px 1rem 1rem 1rem;
+	background: rgba(0, 0, 0, .05);
+}
+
+.tab-news .tn-news {
+	display: flex;
+	align-items: center;
+	margin-bottom: 1rem;
+	background: var(--branco);
+    border-radius: 10px;
+}
+
+.tab-news .tn-img {
+	width: 10rem;
+}
+
+.tab-news .tn-img img {
+	width: 10rem;
+}
+
+.tab-news .tn-title {
+	padding: 0.8rem 1rem;
+}
+
+.tab-news .tn-title a {
+	color: var(--preto);
+	font-size: 1rem;
+	font-weight: 400;
+	transition: all .3s;
+}
+
+.tab-news .tn-title a:hover {
+	color: var(--azul-escuro);
+}

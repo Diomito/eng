@@ -1,0 +1,53 @@
+/**********************************/
+/********** Contact CSS ***********/
+/**********************************/
+.contact {
+	position: relative;
+	padding: 1.4rem 0 1rem 0;
+}
+
+.contact .contact-form,
+.contact .contact-info {
+	margin-bottom: 45px;
+}
+
+.contact .contact-info h4 {
+	margin-bottom: 0.7rem;
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.contact .contact-info h4 i {
+	color: var(--preto);
+	margin-right: 5px;
+}
+
+.contact .social {
+	position: relative;
+	width: 100%;
+}
+
+.contact .social a {
+	display: inline-block;
+	margin: 10px 10px 0 0;
+	width: 40px;
+	height: 40px;
+	padding: 7px 0;
+	text-align: center;
+	font-size: 1rem;
+	border: 1px solid var(--preto);
+	border-radius: 4px;
+}
+
+.contact .social a i {
+	color: var(--preto);
+}
+
+.contact .social a:hover {
+	background: var(--azul-escuro);
+	border-color: var(--azul-escuro);
+}
+
+.contact .social a:hover i {
+	color: var(--branco);
+}

@@ -1,0 +1,118 @@
+/**********************************/
+/********** General CSS ***********/
+/**********************************/
+:root{
+    --azul-claro: #DFE3E5;
+	--azul-ciano: #56CCF2;
+	--azul-escuro: navy;
+	--branco: #ffffff;
+	--bg-chamada-mobile: #00161C;
+	--hover: #333;
+	--cabecalho: #1F4E5F;
+	--cinza-claro: #e7e7e7;
+	--cinza-medio: #9b9b9b;
+	--cinza-escuro: #4F4C4C;
+	--marrom-medio: #3C2A21;
+	--fonte-link: #3f3f3f;
+	--verde-musgo: #79A8A9;
+	--verde-piscina: #AACFD0;
+	--vermelho-claro: #E33B3B;
+	--vermelho-forte: #B72E2E;
+	--roxo-claro: #B04CD9;
+	--preto: #010101;
+}
+
+body {
+	color: var(--preto);
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	background: #ffffff;
+}
+
+a {
+	color: var(--azul-escuro);
+	transition: 0.5s;
+}
+
+a:hover,
+a:active,
+a:focus {
+	color: var(--preto);
+	outline: none;
+	text-decoration: none;
+}
+
+p {
+	padding: 0;
+	margin: 0 0 15px 0;
+	color: var(--preto);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px 0;
+	padding: 0;
+	color: var(--preto);
+	font-weight: 600;
+}
+
+h4,
+h5,
+h6 {
+	font-weight: 400;
+}
+
+.back-to-top {
+	position: fixed;
+	display: none;
+	background: var(--azul-ciano);
+	color: #ffffff;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	line-height: 1;
+	font-size: 1rem;
+	right: 15px;
+	bottom: 15px;
+	transition: background 0.5s;
+	border-radius: 4px;
+	z-index: 11;
+}
+
+.back-to-top:hover {
+	background: var(--preto);
+}
+
+.back-to-top i {
+	padding-top: 9px;
+	color: #ffffff;
+}
+
+
+/**********************************/
+/********* Breadcrumb CSS *********/
+/**********************************/
+.breadcrumb-wrap {
+	position: relative;
+	width: 100%;
+	background: #ffffff;
+}
+
+.breadcrumb-wrap .breadcrumb {
+	margin: 25px 0 0 0;
+	padding: 0;
+	background: none;
+}
+
+.breadcrumb-wrap .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+	color: #353535;
+}
+
+.breadcrumb-wrap .breadcrumb .breadcrumb-item.active {
+	color: #353535;
+}
+

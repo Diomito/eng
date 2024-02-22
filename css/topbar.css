@@ -1,0 +1,61 @@
+
+/**********************************/
+/*********** Top Bar CSS **********/
+/**********************************/
+.top-bar {
+	padding: 2px 0;
+	background: var(--azul-escuro);
+}
+
+.top-bar .tb-contact p {
+	display: inline-block;
+	margin: 0;
+	color: var(--branco);
+	font-size: 1rem;
+}
+
+.top-bar .tb-contact p i {
+	margin-right: 6px;
+}
+
+.top-bar .tb-contact p:first-child {
+	margin-right: 15px;
+}
+
+.top-bar .tb-menu {
+	font-size: 0;
+	text-align: right;
+}
+
+.top-bar .tb-menu a {
+	color: var(--branco);
+	font-size: 1rem;
+	margin: 0 8px;
+}
+
+.top-bar .tb-menu a:hover {
+	color: #ffffff;
+}
+
+.top-bar .tb-menu a:last-child {
+	margin-right: 0;
+}
+
+.top-bar .tb-menu a::after {
+	position: absolute;
+	content: "/";
+	margin: 1px 0 0 6px;
+	color: var(--branco);
+	font-size: 1rem;
+}
+
+.top-bar .tb-menu a:last-child::after {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	.top-bar .tb-contact,
+	.top-bar .tb-menu {
+		text-align: center;
+	}
+}

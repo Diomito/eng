@@ -1,0 +1,78 @@
+/**********************************/
+/*********** Brand CSS ************/
+/**********************************/
+.brand {
+	margin: 1rem 0;
+	background: var(--branco);
+    max-height: 20%;
+}
+
+.brand .b-logo {
+	text-align: left;
+	overflow: hidden;
+}
+
+.banner{
+    border-radius: 10px;
+}
+
+.brand a img {
+	max-width: 100%;
+}
+
+.brand .b-ads {
+	overflow: hidden;
+}
+
+.brand .b-ads a img {
+	max-width: 100%;
+}
+
+.brand .b-search {
+	width: 20rem;
+    display: flex;
+}
+
+.brand .b-search input[type=text] {
+	width: 100%;
+	height: 40px;
+	padding: 0 1rem;
+	color: var(--cinza-escuro);
+	border: 1px solid var(--cinza-medio);
+	border-radius: 4px;
+}
+
+.brand .b-search input[type=text]:focus {
+	border-color: var(--azul-escuro);
+}
+
+.brand .b-search button {
+    display: flex;
+    align-items: center;
+	width: 40px;
+	height: 40px;
+	top: 0;
+	right: 1rem;
+	border: none;
+	background: none;
+	color: var(--azul-escuro);
+	border-radius: 0 4px 4px 0;
+}
+
+.brand .b-search button:hover {
+	background: var(--azul-escuro);
+	color: var(--branco);
+}
+
+@media (max-width: 767.98px) {
+	.brand .b-logo,
+	.brand .b-ads,
+	.brand .b-search {
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+	
+	.brand .b-search {
+		margin-bottom: 0;
+	}
+}
