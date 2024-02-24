@@ -40,42 +40,6 @@
 	background: #f8f9fa;
 }
 
-@media (min-width: 768px) {
-	.nav-bar,
-	.nav-bar .navbar {
-		background: var(--azul-escuro) !important;
-	}
-	
-	.nav-bar .navbar-brand {
-		display: none;
-	}
-	
-	.nav-bar a.nav-link {
-		padding: 8px 15px;
-		font-size: 1rem;
-		text-transform: uppercase;
-	}
-}
-
-@media (max-width: 768px) {   
-	.nav-bar,
-	.nav-bar .navbar {
-		padding: 3px 0;
-		background: var(--azul-escuro) !important;
-	}
-	
-	.nav-bar a.nav-link {
-		padding: 1rem;
-	}
-	
-	.nav-bar .dropdown-menu {
-		box-shadow: none;
-	}
-	
-	.nav-bar .social {
-		display: none;
-	}
-}
 
 .nav-bar .social {
 	font-size: 0;
@@ -107,5 +71,4 @@
 .nav-bar .social a:hover i {
 	color: var(--azul-escuro);
 }
-
 

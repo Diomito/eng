@@ -96,6 +96,14 @@
 	color: var(--azul-escuro);
 }
 
+.news_eng{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+
+
 p{
     line-height: 2rem;
 }
