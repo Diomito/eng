@@ -6,8 +6,8 @@
 	width: 100%;
 	height: 35px;
 	padding: 5px 1rem;
-	color: #999999;
-	border: 1px solid #cccccc;
+	color: var(--cinza-medio);
+	border: 1px solid var(--branco);
 	margin-bottom: 1rem
 }
 

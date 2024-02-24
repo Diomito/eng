@@ -86,8 +86,8 @@
 .footer .social a {
 	display: inline-block;
 	margin: 10px 5px 0 0;
-	width: 35px;
-	height: 35px;
+	width: 2.5rem;
+	height: 2.5rem;
 	padding: 5px 0;
 	text-align: center;
 	font-size: 1rem;
@@ -222,9 +222,3 @@
 	color: var(--branco);
 }
 
-@media (max-width: 768.98px) {
-	.footer-bottom .copyright,
-	.footer-bottom .template-by {
-		text-align: center; 
-	} 
-}

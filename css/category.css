@@ -9,7 +9,7 @@
 }
 
 .cat-news .col-md-6 {
-	margin-bottom: 30px;
+	margin-bottom: 2rem;
 }
 
 .cat-news h2 {
@@ -22,6 +22,7 @@
 	position: relative;
 	overflow: hidden;
     border-radius: 10px;
+    margin: 0.5rem;
 }
 
 .cat-news .cn-img img {
@@ -63,8 +64,8 @@
 .cat-news .slick-prev,
 .cat-news .slick-next {
 	top: -62px;
-	width: 28px;
-	height: 28px;
+	width: 1.7rem;
+	height: 1.7rem;
 	z-index: 1;
 	transition: .5s;
 	color: var(--branco);

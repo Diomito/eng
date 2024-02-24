@@ -53,9 +53,3 @@
 	display: none;
 }
 
-@media (max-width: 768px) {
-	.top-bar .tb-contact,
-	.top-bar .tb-menu {
-		text-align: center;
-	}
-}
