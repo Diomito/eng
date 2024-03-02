@@ -15,8 +15,9 @@
 }
 
 .single-news .sn-img img {
-	width: 100%;
+	width: 75%;
 }
+
 
 .single-news .sn-content {
 	position: relative;

@@ -51,8 +51,10 @@ a:focus {
 
 p {
 	padding: 0;
-	margin: 0 0 15px 0;
+	margin: 0 0 1rem 0;
 	color: var(--preto);
+    line-height: 2rem;
+    margin-left: 0.5rem;
 }
 
 h1,

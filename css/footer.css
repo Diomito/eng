@@ -212,6 +212,10 @@
 	margin: 0;
 }
 
+.template-by{
+    font-size: 0.5rem;
+}
+
 .footer-bottom .copyright p a,
 .footer-bottom .template-by p a {
 	font-weight: 600;
