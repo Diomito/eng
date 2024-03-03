@@ -126,7 +126,7 @@
 }
 
 .imagem{
-    width: 50%;  
+    width: 80%;
     border-radius: 5px;
 }
 
@@ -138,6 +138,4 @@
 .imagem_news{
     display: flex;
     justify-content: center;
-    width: 60%;  
-    border-radius: 5px;
 }
