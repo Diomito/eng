@@ -93,6 +93,10 @@
 	width: 100px;
 }
 
+.tn-img img{
+    border-radius: 5px;
+}
+
 .sidebar .tab-news .tn-title {
 	padding: 0 0 0 1rem;
 }

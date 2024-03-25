@@ -112,6 +112,12 @@ h6 {
     transition: width 0.2s ease-in-out;
 }
 
+figcaption {
+    color: var(--preto);
+    font: italic smaller sans-serif;
+    padding: 3px;
+  }
+
 
 /**********************************/
 /********* Breadcrumb CSS *********/
