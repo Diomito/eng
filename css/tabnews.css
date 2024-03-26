@@ -39,7 +39,8 @@
 }
 
 .tab-news .tn-img img {
-	width: 10rem;
+	width: 9rem;
+    height: 6rem;
 }
 
 .tab-news .tn-title {
